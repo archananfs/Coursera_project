@@ -1,1 +1,100 @@
 ## Coursera Project
+Human Activity recognition using Smartphones.
+Data Set was downloaded from UCI Machine learning repository.
+#Data Sets Used:
+  a)features.txt: Has list of features which are used to identify the values in dataset.
+  b) activity_labels: Links the class labels with their activity name.
+  c)Train set
+  d) Test set
+  e) Subject_train, subject_test:  Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+run_analysis.R loads and reads the data sets and tidy the data. Particular feature extraction can also be done.
+## Requirements
+libraries: 'data.table' and 'dplyr'
+
+Variable Description
+Identifiers: Activity and Id
+mean(): Mean value
+std(): Standard deviation
+"Sub.Id" : Subject Id
+"Activity.Id" : Activity Id
+"Activity" : Activities corresponding to data
+"Time.Body.Acceleration.std.X" : Standard deviation of Body acceleration along X axis
+"Time.Body.Acceleration.std.Y" :Standard deviation of Body acceleration along Y axis
+"Time.Body.Acceleration.std.Z" : Standard deviation of Body acceleration along Z axis.
+"Time.Gravity.Acceleration.std.X"
+"Time.Gravity.Acceleration.std.Y"
+"Time.Gravity.Acceleration.std.Z"
+"Time.Body.Acceleration.Jerk.std.X"
+"Time.Body.Acceleration.Jerk.std.Y"
+"Time.Body.Acceleration.Jerk.std.Z"
+"Time.Body.Gyro.std.X"
+"Time.Body.Gyro.std.Y"
+"Time.Body.Gyro.std.Z"
+"Time.Body.Gyro.Jerk.std.X"
+"Time.Body.Gyro.Jerk.std.Y"
+"Time.Body.Gyro.Jerk.std.Z"
+"Time.Body.Acceleration.Magnitude.std."
+"Time.Gravity.Acceleration.Magnitude.std."
+"Time.Body.Acceleration.Jerk.Magnitude.std."
+"Time.Body.Gyro.Magnitude.std."
+"Time.Body.Gyro.Jerk.Magnitude.std."
+"Frequency.Body.Acceleration.std.X": Standard deviation of Fourier transformed X signal
+"Frequency.Body.Acceleration.std.Y"
+"Frequency.Body.Acceleration.std.Z"
+"Frequency.Body.Acceleration.Jerk.std.X"
+"Frequency.Body.Acceleration.Jerk.std.Y"
+"Frequency.Body.Acceleration.Jerk.std.Z"
+"Frequency.Body.Gyro.std.X"
+"Frequency.Body.Gyro.std.Y"
+"Frequency.Body.Gyro.std.Z"
+"Frequency.Body.Acceleration.Magnitude.std."
+"Frequency.Body.Acceleration.Jerk.Magnitude.std."
+"Frequency.Body.Gyro.Magnitude.std."
+"Frequency.Body.Gyro.Jerk.Magnitude.std."
+"Time.Body.Acceleration.mean.X"
+"Time.Body.Acceleration.mean.Y"
+"Time.Body.Acceleration.mean.Z"
+"Time.Gravity.Acceleration.mean.X"
+"Time.Gravity.Acceleration.mean.Y"
+"Time.Gravity.Acceleration.mean.Z"
+"Time.Body.Acceleration.Jerk.mean.X"
+"Time.Body.Acceleration.Jerk.mean.Y"
+"Time.Body.Acceleration.Jerk.mean.Z"
+"Time.Body.Gyro.mean.X"
+"Time.Body.Gyro.mean.Y"
+"Time.Body.Gyro.mean.Z"
+"Time.Body.Gyro.Jerk.mean.X"
+"Time.Body.Gyro.Jerk.mean.Y"
+"Time.Body.Gyro.Jerk.mean.Z"
+"Time.Body.Acceleration.Magnitude.mean."
+"Time.Gravity.Acceleration.Magnitude.mean."
+"Time.Body.Acceleration.Jerk.Magnitude.mean."
+"Time.Body.Gyro.Magnitude.mean."
+"Time.Body.Gyro.Jerk.Magnitude.mean."
+"Frequency.Body.Acceleration.mean.X"
+"Frequency.Body.Acceleration.mean.Y"
+"Frequency.Body.Acceleration.mean.Z"
+"Frequency.Body.Acceleration.meanFreq.X"
+"Frequency.Body.Acceleration.meanFreq.Y"
+"Frequency.Body.Acceleration.meanFreq.Z"
+"Frequency.Body.Acceleration.Jerk.mean.X"
+"Frequency.Body.Acceleration.Jerk.mean.Y"
+"Frequency.Body.Acceleration.Jerk.mean.Z"
+"Frequency.Body.Acceleration.Jerk.meanFreq.X"
+"Frequency.Body.Acceleration.Jerk.meanFreq.Y"
+"Frequency.Body.Acceleration.Jerk.meanFreq.Z"
+"Frequency.Body.Gyro.mean.X"
+"Frequency.Body.Gyro.mean.Y"
+"Frequency.Body.Gyro.mean.Z"
+"Frequency.Body.Gyro.meanFreq.X"
+"Frequency.Body.Gyro.meanFreq.Y"
+"Frequency.Body.Gyro.meanFreq.Z"
+"Frequency.Body.Acceleration.Magnitude.mean."
+"Frequency.Body.Acceleration.Magnitude.meanFreq."
+"Frequency.Body.Acceleration.Jerk.Magnitude.mean."
+"Frequency.Body.Acceleration.Jerk.Magnitude.meanFreq."
+"Frequency.Body.Gyro.Magnitude.mean."
+"Frequency.Body.Gyro.Magnitude.meanFreq."
+"Frequency.Body.Gyro.Jerk.Magnitude.mean."
+"Frequency.Body.Gyro.Jerk.Magnitude.meanFreq."
